@@ -8,6 +8,7 @@ export default class ClearComplete {
       Algos.displayTodos();
     }
 
+    // Remove completed task;
     static checkComplete = () => {
       document.querySelectorAll('.checkbox').forEach((btn) => btn.addEventListener('change', () => {
         let id;
